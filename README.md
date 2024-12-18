@@ -16,7 +16,8 @@ requirements.txt      # Python dependencies
 
 ### Frontend URL:
 [https://urlkunjaakkal.netlify.app/](https://urlkunjaakkal.netlify.app/)
-![{44F951CE-7B2E-4FFC-B1F1-95627AC556CB}](https://github.com/user-attachments/assets/3196bd74-5f0e-4ee3-b094-35b8d1055d6c)
+
+![{6740F062-6DAA-43AA-9547-C18051F95566}](https://github.com/user-attachments/assets/93e2df54-caef-4e89-a79b-9e9e4018fc58)
 
 ### Backend URL:
 [https://url-shortener-backend-qcmu.onrender.com/](https://url-shortener-backend-qcmu.onrender.com/)
