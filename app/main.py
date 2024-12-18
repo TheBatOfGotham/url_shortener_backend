@@ -41,7 +41,7 @@ def create_short_url(url_request: URLRequest, db: Session = Depends(get_db)):
 
     # Generate short URL
     short_code = encode_base62(new_url.id)
-    new_url.short_url = f"{BASE_URL}{short_code}"
+    new_url.short_url = f"{BASE_URL}/{short_code}"
     db.commit()
 
     return {"shortUrl": new_url.short_url}
