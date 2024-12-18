@@ -1,6 +1,6 @@
 # URL Shortener with FastAPI and MySQL
 
-This is a URL shortener application built with **FastAPI** and **MySQL**. The backend is deployed on **Render**, and the frontend is hosted on **Netlify**. The URL shortening service allows users to shorten long URLs. There is provision to track the usage of shortened URLs. The free instance in Render will spin down with inactivity, which can delay requests by 50 seconds or more.
+This is a URL shortener application built with **FastAPI** and **MySQL**. The backend is deployed on **Render**, and the frontend is hosted on **Netlify**. The URL shortening service allows users to shorten long URLs. There is provision to track the usage of shortened URLs. The free instance in Render will spin down with inactivity, which can delay requests by 50 seconds or more. The urls table is empty and hence details and top GET requests returns empty. It gets populated once POST request are made.
 
 ## Project Structure
 
