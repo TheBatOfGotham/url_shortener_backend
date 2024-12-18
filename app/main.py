@@ -3,10 +3,10 @@ from fastapi import Query
 from fastapi.responses import RedirectResponse
 from fastapi.middleware.cors import CORSMiddleware
 from sqlalchemy.orm import Session
-from models import URL,URLRequest
-from database import engine, Base, get_db
-from utils import encode_base62, is_rate_limited
-from config import BASE_URL
+from app.models import URL,URLRequest
+from app.database import engine, Base, get_db
+from app.utils import encode_base62, is_rate_limited
+from app.config import BASE_URL
 
 app = FastAPI()
 
