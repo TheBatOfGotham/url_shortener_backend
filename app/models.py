@@ -1,5 +1,5 @@
 from sqlalchemy import Column, Integer, String, Date, func
-from database import Base
+from app.database import Base
 from pydantic import BaseModel
 
 class URLRequest(BaseModel):
